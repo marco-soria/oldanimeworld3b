@@ -38,7 +38,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'api',
     'rest_framework',
-    'cloudinary'
+    'cloudinary',
     'rest_framework_simplejwt',
     'paypal.standard.ipn',
     'corsheaders',
@@ -48,7 +48,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'drf_yasg'
+    'drf_yasg',
 ]
 
 REST_FRAMEWORK = {

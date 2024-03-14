@@ -42,7 +42,7 @@ schema_view = get_schema_view(
 )
 
 urlpatterns = [
-    path('api/',include('api.urls')),
+    #path('api/',include('api.urls')),
     #path('login', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     #path('api/admin/',include('api_admin.urls')),
     #path('paypal/', include("paypal.standard.ipn.urls")),
